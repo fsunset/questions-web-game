@@ -21,12 +21,15 @@
   src: url('../fonts/Roboto-Thin.ttf') format('truetype');
 }
 
+* {
+	font-family: 'Roboto Thin', sans-serif;
+}
+
 .main {
   background: url('../img/main-bg.jpg');
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	font-family: 'Roboto Thin', sans-serif;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -84,12 +87,34 @@
     cursor: pointer;
     margin-bottom: 10px;
 
-    &:hover {
+    &:hover,
+    &.selected-opt {
     	background-position: 0 -52px;
     }
 
     span {
     	font-size: 15px;
     }
+  }
+}
+
+.modal {
+	.modal-content {
+  	background-color: rgba(0,0,0,0.8);
+  	color: white;
+  	border: none;
+  }
+
+  .modal-header {
+    border-bottom: 1px solid #E4AC46;
+  }
+
+  .modal-footer {
+  	border-top: none;
+  }
+
+  .btn.btn-primary {
+  	background-color: #333C97;
+    border-color: #333C97;
   }
 }
