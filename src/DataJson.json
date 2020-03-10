@@ -4,53 +4,104 @@
 		{
 			"id": 0,
 			"question": "¿Qué información es importante identificar del tejido empresarial de las ciudades o municipios donde se ejecutará el proyecto?",
-			"options": {
-				"a": "Saber cuántas empresas existen por sector, tipo y tamaño",
-				"b": "Conocer qué empresas están dispuestas a contratar víctimas del conflicto armado",
-				"c": "Saber las necesidades de contratación inmediata y a mediano plazo de las empresas",
-				"d": "Todas las anteriores"
-			},
-			"answer": "d",
-			"feedback": {
-				"a": "Sin duda que es importante saber cuántas empresas existen en las ciudades o municipios en donde se ejecutará el proyecto, así como el sector de la economía en el que están, su tipo (bienes o servicios) y su tamaño. Todos estos datos son importantes entre otros factores, porque permiten conocer qué tan intensivas son las empresas en mano de obra y el número de empleados que poseen, así como las dinámicas en las que están inmersas y las temporadas de mayor contratación de personal, pero no es suficiente.",
-				"b": "Es muy importante conocer qué empresas están dispuestas a contratar víctimas del conflicto armado, o al menos conocer si tienen un área o departamento de Responsabilidad Social Empresarial, o si ya han participado en proyectos similares, pero tampoco es suficiente.",
-				"c": "Conocer las necesidades de contratación en el corto y mediano plazo de las empresas es esencial para acercarse a ellas en los momentos en los que haya más oportunidades de que contraten víctimas del conflicto armado, pero tampoco es suficiente.",
-				"d": "Es la respuesta correcta, pues toda la información señalada es fundamental para poder estructurar un proyecto sólido y con altas probabilidades de éxito."
-			}
+			"options": [
+				"Saber cuántas empresas existen por sector, tipo y tamaño",
+				"Conocer qué empresas están dispuestas a contratar víctimas del conflicto armado",
+				"Saber las necesidades de contratación inmediata y a mediano plazo de las empresas",
+				"Todas las anteriores"
+			],
+			"answer": 3,
+			"feedback": [
+				"Sin duda que es importante saber cuántas empresas existen en las ciudades o municipios en donde se ejecutará el proyecto, así como el sector de la economía en el que están, su tipo (bienes o servicios) y su tamaño. Todos estos datos son importantes entre otros factores, porque permiten conocer qué tan intensivas son las empresas en mano de obra y el número de empleados que poseen, así como las dinámicas en las que están inmersas y las temporadas de mayor contratación de personal, pero no es suficiente.",
+				"Es muy importante conocer qué empresas están dispuestas a contratar víctimas del conflicto armado, o al menos conocer si tienen un área o departamento de Responsabilidad Social Empresarial, o si ya han participado en proyectos similares, pero tampoco es suficiente.",
+				"Conocer las necesidades de contratación en el corto y mediano plazo de las empresas es esencial para acercarse a ellas en los momentos en los que haya más oportunidades de que contraten víctimas del conflicto armado, pero tampoco es suficiente.",
+				"Es la respuesta correcta, pues toda la información señalada es fundamental para poder estructurar un proyecto sólido y con altas probabilidades de éxito."
+			]
 		},
 		{
 			"id": 1,
 			"question": "Para tener una buena caracterización de la población víctima de la ciudad o municipio donde se ejecutará el proyecto, usted debe...",
-			"options": {
-				"a": "Conocer su género, edad, cuántos años y tipo de educación que tienen",
-				"b": "Conocer su experiencia laboral y sus intereses ocupacionales",
-				"c": "Solo es relevante saber quiénes quieren trabajar y el hecho victimizante",
-				"d": "Todas las anteriores"
-			},
-			"answer": "d",
-			"feedback": {
-				"a": "Todos estos elementos son muy importantes para poder tener una sólida caracterización de la población víctima del conflicto armado de su departamento, pero no son suficientes.",
-				"b": "Sin duda que estos dos elementos son fundamentales ya que permiten de antemano, hacerse una idea general de las posibilidades de match entre la oferta de trabajo disponible y la demanda de las empresas, pero tampoco son suficientes.",
-				"c": "Saber qué víctimas quieren trabajar es algo importante para saber a qué personas puede postular a las vacantes identificadas , de manera que no se incluyan a personas que no están interesadas en el mundo laboral. El mejor momento para identificar esta información, es en la orientación ocupacional. No es relevante conocer el hecho victimizante, salvo que la participación en el proyecto esté restringida a personas con un hecho victimizante específico y particular, o si esta pudiera generar alguna restricción para la participación de la persona.",
-				"d": "Es la respuesta correcta, pues conocer toda la información es muy importante para tener una completa caracterización de la población víctima."
-			}
+			"options": [
+				"Conocer su género, edad, cuántos años y tipo de educación que tienen",
+				"Conocer su experiencia laboral y sus intereses ocupacionales",
+				"Solo es relevante saber quiénes quieren trabajar y el hecho victimizante",
+				"Todas las anteriores"
+			],
+			"answer": 3,
+			"feedback": [
+				"Todos estos elementos son muy importantes para poder tener una sólida caracterización de la población víctima del conflicto armado de su departamento, pero no son suficientes.",
+				"Sin duda que estos dos elementos son fundamentales ya que permiten de antemano, hacerse una idea general de las posibilidades de match entre la oferta de trabajo disponible y la demanda de las empresas, pero tampoco son suficientes.",
+				"Saber qué víctimas quieren trabajar es algo importante para saber a qué personas puede postular a las vacantes identificadas , de manera que no se incluyan a personas que no están interesadas en el mundo laboral. El mejor momento para identificar esta información, es en la orientación ocupacional. No es relevante conocer el hecho victimizante, salvo que la participación en el proyecto esté restringida a personas con un hecho victimizante específico y particular, o si esta pudiera generar alguna restricción para la participación de la persona.",
+				"Es la respuesta correcta, pues conocer toda la información es muy importante para tener una completa caracterización de la población víctima."
+			]
 		},
 		{
 			"id": 2,
-			"question": "fs Q",
-			"options": {
-				"a": "eins",
-				"b": "zwei",
-				"c": "drei",
-				"d": "vier"
-			},
-			"answer": "b",
-			"feedback": {
-				"a": "lala",
-				"b": "opop",
-				"c": "cece",
-				"d": "xaxa"
-			}
+			"question": "¿Para tener una base de datos completa y actualizada de la población víctima del conflicto armado de la ciudad o municipio donde se ejecutará el proyecto, usted debe?",
+			"options": [
+				"Desarrollar acciones de articulación con las principales entidades que trabajan con la población víctima del conflicto armado para que el prestador puede tener acceso a las bases de datos que manejan de la población víctima del conflicto armado",
+				"Construir con cada proyecto que ejecuta, una base de datos que contenga las variables más importantes para caracterizar la población",
+				"Pedirle a las víctimas del conflicto armado que actualicen su información personal en el Sistema de Información del Servicio Público de Empleo",
+				"Todas las anteriores"
+			],
+			"answer": 3,
+			"feedback": [
+				"Es muy importante tener sólidas relaciones con las personas que trabajan en las entidades públicas y privadas que benefician a la población víctima del conflicto armado, para que el prestador pueda tener acceso a sus base de datos sobre la población víctima del conflicto armado, pero no es la única fuente de información que usted debe considerar.",
+				"Con cada proyecto que usted ejecuta, se produce una acervo de información importante sobre las víctimas que debe construir y preservar, pero debe considerar que existen otras fuentes de información.",
+				"La frecuencia con la que un porcentaje importante de la población víctima del conflicto cambia algunos datos personales relevantes, es alta, por lo que se debe aprovechar cada oportunidad para que actualicen esta información en los sistemas de información del Servicio Público de Empleo.",
+				"Es la respuesta correcta, ya que todas estas formas de caracterizar a la población víctima del conflicto, son válidas e importantes, y se complementan entre sí."
+			]
+		},
+		{
+			"id": 3,
+			"question": "Para estructurar el equipo de trabajo asignado al proyecto, ¿qué debe tener en cuenta el prestador que presentará la propuesta?",
+			"options": [
+				"Asignar un Coordinador o Director del proyecto para enfocar los esfuerzos del equipo hacia el cumplimiento de metas",
+				"Conformar un equipo de trabajo con responsabilidades y tiempos de dedicación claros",
+				"Que el prestador sepa que las personas que trabajarán en el proyecto, deben dedicarle un porcentaje de tiempo que oscila entre un 50% y 80% como mínimo, según la etapa y la actividad específica",
+				"Todas las anteriores"
+			],
+			"answer": 3,
+			"feedback": [
+				"Sin duda que es muy importante que exista un Coordinador o Director del proyecto, que enfoque los esfuerzos del equipo en el cumplimiento de metas, pero que también responda por los avances del proyecto, solucione cualquier dificultad que se vaya presentando, y para que sea el punto de contacto con el PNUD, entre otras funciones claves.",
+				"Es muy importante definir un equipo de trabajo para el proyecto que tenga muy claras sus responsabilidades y los tiempos en los que trabajará en el proyecto. Sería la situación ideal, salvo que usted sea un prestador que vaya a desarrollar por primera vez un proyecto de este tipo y no tenga posibilidad de contratar personas adicionales.",
+				"Es fundamental que un prestador sea consciente que las personas que estarán trabajando en el proyecto, deberán dedicar un porcentaje de tiempo que puede variar entre el 50% y el 80%, según la etapa y actividad, y se tomen las medidas apropiadas para que las personas no se recarguen de trabajo y no se descuiden otras labores importantes.",
+				"Es la respuesta correcta, ya que todos estos aspectos son importantes para presentar una propuesta completa."
+			]
+		},
+		{
+			"id": 4,
+			"question": "¿En la planeación de un proyecto, qué áreas/oficinas/departamentos del prestador deben intervenir para lograr una planeación exitosa?",
+			"options": [
+				"Solo la dirección o coordinación del proyecto",
+				"Todas las áreas/oficinas/departamentos del prestador que deban conocer el proyecto y hacer algún aporte para su exitosa presentación",
+				"La coordinación o dirección nacional del proyecto y el área jurídica",
+				"La dirección o coordinación del proyecto y las áreas de operación técnica"
+			],
+			"answer": 1,
+			"feedback": [
+				"",
+				"",
+				"",
+				""
+			]
+		},
+		{
+			"id": 5,
+			"question": "",
+			"options": [
+				"",
+				"",
+				"",
+				""
+			],
+			"answer": 0,
+			"feedback": [
+				"",
+				"",
+				"",
+				""
+			]
 		}
 	]
 }

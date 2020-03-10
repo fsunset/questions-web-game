@@ -72,4 +72,24 @@
 	    margin-top: .3rem;
     }
   }
+
+  .option-container {
+    background-image: url('../img/sprite-ans.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% 310px;
+    line-height: 40px;
+    height: 40px;
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+    &:hover {
+    	background-position: 0 -52px;
+    }
+
+    span {
+    	font-size: 15px;
+    }
+  }
 }
