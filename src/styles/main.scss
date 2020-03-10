@@ -1,3 +1,75 @@
-body {
-	background-color: pink; 	
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
+/*
+ *** Global Styling
+*/
+
+@font-face {
+  font-family: 'Roboto Light';
+  src: url('../fonts/Roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Regular';
+  src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Thin';
+  src: url('../fonts/Roboto-Thin.ttf') format('truetype');
+}
+
+.main {
+  background: url('../img/main-bg.jpg');
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Roboto Thin', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  color: white;
+
+  .alert {
+  	background-color: rgba(0,0,0,0.5);
+    padding: 1rem;
+    border-radius: 0;
+
+    &.sub-alert {
+    	padding: .5rem 2rem;
+    }
+
+    .subtitle {
+    	text-transform: capitalize;
+    }
+  }
+
+  .question-container {
+  	padding: 15px 20%;
+    background-image: url('../img/quest.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-size: 17px;
+    min-height: 80px;
+    margin-bottom: 20px;
+    width: 100%;
+    @include media-breakpoint-down(sm) {
+    	background-size: cover;
+    }
+
+    p {
+    	margin-bottom: 0;
+    }
+
+    .input-base {
+    	background: transparent;
+	    border: none;
+	    text-align: center;
+	    border-bottom: 1px solid white;
+	    color: white;
+	    margin-top: .3rem;
+    }
+  }
 }

@@ -1,0 +1,56 @@
+{
+	"title": "Preguntas",
+	"data": [
+		{
+			"id": 0,
+			"question": "¿Qué información es importante identificar del tejido empresarial de las ciudades o municipios donde se ejecutará el proyecto?",
+			"options": {
+				"a": "Saber cuántas empresas existen por sector, tipo y tamaño",
+				"b": "Conocer qué empresas están dispuestas a contratar víctimas del conflicto armado",
+				"c": "Saber las necesidades de contratación inmediata y a mediano plazo de las empresas",
+				"d": "Todas las anteriores"
+			},
+			"answer": "d",
+			"feedback": {
+				"a": "Sin duda que es importante saber cuántas empresas existen en las ciudades o municipios en donde se ejecutará el proyecto, así como el sector de la economía en el que están, su tipo (bienes o servicios) y su tamaño. Todos estos datos son importantes entre otros factores, porque permiten conocer qué tan intensivas son las empresas en mano de obra y el número de empleados que poseen, así como las dinámicas en las que están inmersas y las temporadas de mayor contratación de personal, pero no es suficiente.",
+				"b": "Es muy importante conocer qué empresas están dispuestas a contratar víctimas del conflicto armado, o al menos conocer si tienen un área o departamento de Responsabilidad Social Empresarial, o si ya han participado en proyectos similares, pero tampoco es suficiente.",
+				"c": "Conocer las necesidades de contratación en el corto y mediano plazo de las empresas es esencial para acercarse a ellas en los momentos en los que haya más oportunidades de que contraten víctimas del conflicto armado, pero tampoco es suficiente.",
+				"d": "Es la respuesta correcta, pues toda la información señalada es fundamental para poder estructurar un proyecto sólido y con altas probabilidades de éxito."
+			}
+		},
+		{
+			"id": 1,
+			"question": "Para tener una buena caracterización de la población víctima de la ciudad o municipio donde se ejecutará el proyecto, usted debe...",
+			"options": {
+				"a": "Conocer su género, edad, cuántos años y tipo de educación que tienen",
+				"b": "Conocer su experiencia laboral y sus intereses ocupacionales",
+				"c": "Solo es relevante saber quiénes quieren trabajar y el hecho victimizante",
+				"d": "Todas las anteriores"
+			},
+			"answer": "d",
+			"feedback": {
+				"a": "Todos estos elementos son muy importantes para poder tener una sólida caracterización de la población víctima del conflicto armado de su departamento, pero no son suficientes.",
+				"b": "Sin duda que estos dos elementos son fundamentales ya que permiten de antemano, hacerse una idea general de las posibilidades de match entre la oferta de trabajo disponible y la demanda de las empresas, pero tampoco son suficientes.",
+				"c": "Saber qué víctimas quieren trabajar es algo importante para saber a qué personas puede postular a las vacantes identificadas , de manera que no se incluyan a personas que no están interesadas en el mundo laboral. El mejor momento para identificar esta información, es en la orientación ocupacional. No es relevante conocer el hecho victimizante, salvo que la participación en el proyecto esté restringida a personas con un hecho victimizante específico y particular, o si esta pudiera generar alguna restricción para la participación de la persona.",
+				"d": "Es la respuesta correcta, pues conocer toda la información es muy importante para tener una completa caracterización de la población víctima."
+			}
+		},
+		{
+			"id": 2,
+			"question": "fs Q",
+			"options": {
+				"a": "eins",
+				"b": "zwei",
+				"c": "drei",
+				"d": "vier"
+			},
+			"answer": "b",
+			"feedback": {
+				"a": "lala",
+				"b": "opop",
+				"c": "cece",
+				"d": "xaxa"
+			}
+		}
+	]
+}
