@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Collapse, Modal, Button } from 'react-bootstrap';
 
+import Firebase from '../firebaseConfig';
 
 const nums = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 let rightAnswersTxt;
@@ -12,6 +13,8 @@ const GameComponent = () => {
 	const lettersArray = ["A", "B", "C", "D"];
 	// Questions Data
 	let data = require('../DataJson.json');
+	// For saving info Firebase
+  const db = Firebase.firestore();
 
 	// Show/Hide feedback-modal for each question's option
 	const [showModal, setShowModal] = useState(false);
@@ -23,7 +26,7 @@ const GameComponent = () => {
 	const [modalInfo, setModalInfo] = useState("");
 
 	// For showing text or questions title
-	const [messageText, setMessageText] = useState("Para jugar escribe tu email y presiona ENTER");
+	const [messageText, setMessageText] = useState("Para comenzar a jugar presiona ENTER");
 
 	// For showing score at the end of game
 	const [scoreTotal, setScoreTotal] = useState("");
@@ -51,8 +54,16 @@ const GameComponent = () => {
   const handleSubmit = (e) => {
   	e.preventDefault();
 
+  	// Saving info Firebase
+	  const userRef = db.collection("users").add({
+	    name: userName.split(",")[0],
+	    email: userName.split(",")[1]
+	  }); 
+
+		// Show random question
 		getQuestion();
 
+  	// Show / hide info on UI
   	setShowUserInfo(false);
   	setShowOptsInfo(false);
   	if (userName.length > 0) {
@@ -166,7 +177,7 @@ const GameComponent = () => {
           		<p>{ scoreTotal }</p>
           		{ !showUserInfo &&
 		            <form onSubmit={ e => handleSubmit(e) }>
-					    		<input type="text" className="input-base" value={ userName } onChange={ e => handleChange(e) } />
+					    		<input type="text" className="input-base" placeholder='"Nombre,  Email". Separados por coma' value={ userName } onChange={ e => handleChange(e) } />
 								</form>
 							}
 						</React.Fragment>
