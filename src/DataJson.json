@@ -102,6 +102,108 @@
 				"No es lo ideal, porque los precios de algunos bienes y servicios pueden quedarse sin ajustar, incurriendo en cifras falsas y erróneas.",
 				"Es la opción correcta si los bienes y servicios se brindarán a través de proveedores externos, pero también a través de las áreas del mismo prestador."
 			]
+		},
+		{
+			"id": 6,
+			"question": "Antes de proceder con la preparación de la oferta técnica y económica, ¿qué debe hacer el prestador?",
+			"options": [
+				"Conocer los pliegos o términos de la licitación/convocatoria/invitación en detalle, y aclarar las inquietudes que surjan respecto a los lineamientos, aspectos jurídicos / económicos, criterios de evaluación de participantes, antes de desarrollar el proyecto",
+				"Iniciar el montaje de la propuesta y resolver las inquietudes que surjan en la medida que se vaya armando la misma",
+				"Proceder lo más pronto que se pueda con la estructuración de la oferta y aprovechar la experiencia que se tiene para resolver las dudas internamente",
+				"A y B"
+			],
+			"answer": 3,
+			"feedback": [
+				"Sin duda que conocer toda la información relacionada con el proyecto y resolver las dudas que surjan, antes de que se estructure el proyecto, es importante.",
+				"Es una buena opción iniciar la propuesta del proyecto al tiempo que se resuelven las inquietudes, sin embargo, se debe considerar que las dudas pueden ser muchas y que resolverlas todas mientras se desarrolla el proyecto, puede hacer que se pierda un tiempo valioso.",
+				"Si el prestador tiene poca o nula experiencia en el desarrollo de este tipo de proyectos, puede incurrir en errores. Adicionalmente, casi siempre de una convocatoria a otra hay cambios y novedades en las reglas de juego, por lo que tener mucha experiencia tampoco garantiza una exitosa presentación.",
+				"Es la respuesta correcta, ya que si antes de estructurar el proyecto se conoce toda la información de las reglas de juego, se han resulto las dudas que se tienen hasta el momento, pero de forma paralela se va estructurando el proyecto se va ganando tiempo. Adicionalmente, por claras que se tengan las reglas de juego antes de estructurar el proyecto, casi siempre surgen dudas adicionales durante su desarrollo."
+			]
+		},
+		{
+			"id": 7,
+			"question": "Si el prestador no puede ejecutar las actividades requeridas en el desarrollo del proyecto, es importante que...",
+			"options": [
+				"El prestador no puede presentar un proyecto si no lo puede ejecutar directamente",
+				"Defina una lista de potenciales proveedores externos que puedan ejecutar las actividades",
+				"Defina una lista de potenciales proveedores externos que puedan ejecutar las actividades y averigüe por su idoneidad para hacerlo de forma correcta y efectiva",
+				"Subcontrate un operador de confianza"
+			],
+			"answer": 2,
+			"feedback": [
+				"No es cierto que si el prestador no puede presentar un proyecto por las restricciones del PNUD, no pueda presentar un proyecto.",
+				"Es importante tener una lista de potenciales proveedores externos que puedan desarrollar las actividades, pero no es suficiente.",
+				"Es la respuesta correcta, pues se debe indagar por la experiencia y reputación de los proveedores que puedan ejecutar el proyecto.",
+				"No es posible subcontratar un operador"
+			]
+		},
+		{
+			"id": 8,
+			"question": "¿Si el proyecto tiene por objetivo el cierre de brechas para mejorar la empleabilidad, qué aspectos son fundamentales para la presentación del proyecto?",
+			"options": [
+				"Definir las barreras individuales de los participantes, sean personales, educativas, laborales y/o documentales que necesiten mitigar para mejorar su empleabilidad",
+				"Definir la empresa barreras de las empresas aliada en cada proyecto, así como el número de vacantes, los requisitos específicos y detallados que pide para cumplir con el perfil, y los dinámicas y los tiempos que implica ejecutar el proyecto, de manera que puedan compaginar con las necesidades de la empresa",
+				"Definir las barreras del entorno que el proyecto puede contribuir a eliminar",
+				"A y B"
+			],
+			"answer": 3,
+			"feedback": [
+				"Es fundamental definir las barreras individuales de los participantes para identificar qué servicios se le van a brindar.",
+				"También es muy importante definir la empresa aliada y toda la información relacionada con las vacantes, que es fundamental para determinar los perfiles de los beneficiarios que más se acercan al perfil.",
+				"Identificar las barreras del entorno es importante, pero no es obligatorio incluir servicios para mitigarlas dentro del proyecto.",
+				"Es la respuesta correcta, ya que en el proyecto es obligatorio incluir al menos una barrera individual y porque es necesario conocer toda la información relacionada de las vacantes para definir los servicios que les van a brindar a las personas."
+			]
+		},
+		{
+			"id": 9,
+			"question": "¿Qué estrategias puede usar para conseguir la población víctima beneficiaria del proyecto?",
+			"options": [
+				"Acudir a las personas de convocatorias de proyectos pasados que NO pudieron beneficiarse y de beneficiarios de proyectos pasados que quieran seguir mejorando sus niveles de empleabilidad, y que tengan el perfil para participar en el proyecto",
+				"Analizar las bases de datos de las entidades que trabajan regularmente con población víctima, en busca de probables participantes",
+				"Realizar una convocatoria y socialización cerrada y ajustada a los territorios establecidos por el convenio en entidades y organizaciones que trabajan con población víctima del conflicto armado",
+				"Todas las anteriores"
+			],
+			"answer": 3,
+			"feedback": [
+				"Es una fuente importante de beneficiarios, pero seguramente será insuficiente.",
+				"También es una fuente importante de beneficiarios, pero seguramente también será insuficiente.",
+				"Es una buena forma de conseguir la población víctima beneficiaria del proyecto, pero probablemente sea insuficiente. Es importante aclarar que bajo ninguna circunstancia es recomendable realizar una convocatoria amplia y masiva en las ciudades o municipios donde se ejecutará el proyecto, pensando que así se pueda acceder a una cantidad de potenciales beneficiarios mucho mayor a la establecida en caso de que se necesite. Esto causará muchas expectativas y frustración en los potenciales beneficiarios al evidenciar que la mayoría no podrá acceder al proyecto.",
+				"Es la respuesta correcta, pues todas estas alternativas para conseguir potenciales beneficiarios son válidas y se complementan unas con otras."
+			]
+		},
+		{
+			"id": 10,
+			"question": "¿Por qué es importante que el prestador sepa qué modalidad de contratación con PNUD es viable de acuerdo con su razón social y jurídica?",
+			"options": [
+				"Porque materializar cada modalidad de contratación toma un tiempo diferente",
+				"Porque según la modalidad de contratación, el prestador puede ejecutar algunos servicios",
+				"Porque cada modalidad de contratación tiene límites presupuestales que es necesario conocer para determinar el tipo y el precio de los bienes y servicios que se incluirán en el proyecto",
+				"A y B"
+			],
+			"answer": 3,
+			"feedback": [
+				"Es cierto que cada modalidad de contratación toma un tiempo determinado y es importante conocer esto para realizar una buena planeación del proyecto, pero existen otras razones importantes.",
+				"No es cierto que según la modalidad de contratación, el prestador pueda o no prestar determinados servicios en el proyecto.",
+				"Cada modalidad de contratación tiene unos niveles presupuestales que no se pueden sobrepasar.",
+				"Es la respuesta correcta, pues tanto la opción A como la B son muy importantes."
+			]
+		},
+		{
+			"id": 11,
+			"question": "¿Por qué es importante conocer completamente todos los anexos que el prestador debe diligenciar para presentar el proyecto?",
+			"options": [
+				"Porque estos anexos contienen información importante que permitirá evaluar el proyecto de forma completa",
+				"Porque si el prestador no conoce los anexos que debe diligenciar para presentar el proyecto, es muy probable que se equivoque",
+				"Porque si estos anexos no se presentan completos y correctamente diligenciados, el proyecto ni siquiera será evaluado",
+				"Todas las anteriores"
+			],
+			"answer": 3,
+			"feedback": [
+				"Es correcto, existen anexos que el prestador debe diligenciar y presentar para que el proyecto sea evaluado completamente, pero existen otras razones importantes.",
+				"Es muy probable que si el prestador no conoce bien los anexos que debe diligenciar para presentar el proyecto, se equivoque.",
+				"Si el prestador no presenta todos los anexos correctamente diligenciados, su proyecto ni siquiera será evaluado y se le pedirá que los presente todos y/o corrija lo que está mal.",
+				"Es la respuesta correcta, todas las razones son importantes."
+			]
 		}
 	]
 }

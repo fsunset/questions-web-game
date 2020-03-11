@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Collapse, Modal, Button } from 'react-bootstrap';
 
 
-const nums = [0, 1, 2, 3, 4, 5];
+const nums = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 let rightAnswersTxt;
 let wrongAnswersTxt;
 
@@ -77,7 +77,7 @@ const GameComponent = () => {
   		document.getElementById("optionBttn_3").classList.remove("selected-opt");
   	}
 
-  	// Set a random num betwen 0 & 5, so we get a question based on it
+  	// Set a random num betwen 0 & 11, so we get a question based on it
 		const randomNum = nums[Math.floor(Math.random() * nums.length)];
 		const elemIndex = nums.indexOf(randomNum);
 
