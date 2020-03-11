@@ -80,27 +80,27 @@
 			],
 			"answer": 1,
 			"feedback": [
-				"",
-				"",
-				"",
-				""
+				"Es claro que la dirección o coordinación del proyecto debe necesariamente intervenir para coordinar a todos los actores necesarios para lograr una planeación exitosa del proyecto, pero su involucramiento no es suficiente.",
+				"Es la respuesta correcta, pues todas las áreas/oficinas/departamentos del prestador que deben conocer el proyecto y hacer uno o varios aportes desde la información que poseen y desde sus capacidades y responsabilidades, es fundamental para lograr una planeación exitosa del proyecto.",
+				"Son dos áreas claves pero su participación es insuficiente.",
+				"Son dos áreas claves pero su participación es insuficiente."
 			]
 		},
 		{
 			"id": 5,
-			"question": "",
+			"question": "Para construir un completo y sólido presupuesto de cada servicio y del proyecto, es necesario tener...",
 			"options": [
-				"",
-				"",
-				"",
-				""
+				"Al menos una cotización de cada bien y servicio que se pretende incluir en el proyecto a través de las áreas responsables de las compras en el prestador, si todo se ejecutará con un proveedor externo",
+				"Al menos tres cotizaciones actualizadas de cada bien y servicio que se pretende incluir en el proyecto a través de las áreas responsables de las compras en el prestador, si todo se ejecutará con un proveedor externo",
+				"Márgenes de precios máximos y mínimos de cada bien o servicio de manera que después pueda hacerse un ajuste cuando se tenga la versión final del proyecto",
+				"Al menos tres cotizaciones actualizadas de cada bien y servicio que se pretende incluir en el proyecto a través de las áreas responsables de las compras en el prestador, y el valor y disponibilidad de los bienes y servicios que el mismo prestador puede brindar"
 			],
-			"answer": 0,
+			"answer": 3,
 			"feedback": [
-				"",
-				"",
-				"",
-				""
+				"Una sola cotización no es suficiente.",
+				"Tres cotizaciones es lo mejor si todos los bienes y servicios del proyecto se ejecutarán a través de un proveedor externo.",
+				"No es lo ideal, porque los precios de algunos bienes y servicios pueden quedarse sin ajustar, incurriendo en cifras falsas y erróneas.",
+				"Es la opción correcta si los bienes y servicios se brindarán a través de proveedores externos, pero también a través de las áreas del mismo prestador."
 			]
 		}
 	]

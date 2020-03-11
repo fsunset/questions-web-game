@@ -1,13 +1,19 @@
 import React from 'react';
 import './styles/main.scss';
 
-import { Container } from 'react-bootstrap';
+import { Container, Button } from 'react-bootstrap';
 import GameComponent from './components/GameComponent';
 
 function App() {
   return (
     <div className="main text-center">
       <Container>
+        <div className="row">
+          <Button variant="primary" onClick={ window.location.reload() }>
+            Comenzar Nuevo Juego
+          </Button>
+        </div>
+
         <div className="row">
           <div className="col-sm-12 alert">
             <h2>Sala Interactiva Para Prestadores</h2>
