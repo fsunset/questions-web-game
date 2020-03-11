@@ -7,12 +7,11 @@ let rightAnswersTxt;
 let wrongAnswersTxt;
 
 const GameComponent = () => {
-	// Questions Data
-	let data = require('../DataJson.json');
-
 	// Globals
 	let question;
 	const lettersArray = ["A", "B", "C", "D"];
+	// Questions Data
+	let data = require('../DataJson.json');
 
 	// Show/Hide feedback-modal for each question's option
 	const [showModal, setShowModal] = useState(false);
@@ -106,7 +105,7 @@ const GameComponent = () => {
   // For showing options for each question
 	const questionOptionsBlock = (question) => question.options.map((value, index) => {
 		return (
-			<div key={ index } className="col-sm-6">
+			<div key={ index } className="col-lg-6">
 		  	<div id={"optionBttn_" + index} className="option-container" onClick={ () => { handleClick(index) } }>
 		  		<span>{ lettersArray[index] + " : "}</span>
 		  		<span>{ value }</span>
