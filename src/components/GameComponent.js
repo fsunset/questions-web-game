@@ -24,7 +24,7 @@ const GameComponent = () => {
 	const [modalInfo, setModalInfo] = useState("");
 
 	// For showing text or questions title
-	const [messageText, setMessageText] = useState("Para jugar escribe tu nombre y presiona ENTER");
+	const [messageText, setMessageText] = useState("Para jugar escribe tu email y presiona ENTER");
 
 	// For showing score at the end of game
 	const [scoreTotal, setScoreTotal] = useState("");
@@ -147,13 +147,13 @@ const GameComponent = () => {
         </Modal.Footer>
       </Modal>
 
-			<Collapse in={ showOptsInfo }>
+			{/*<Collapse in={ showOptsInfo }>
 				<div className="row">
 	        <div className="col-sm-12 alert sub-alert">
 	          <h3 className="subtitle">¡Juguemos, { userName }!</h3>
 	        </div>
 	      </div>
-      </Collapse>
+      </Collapse>*/}
 
       <div className="row">
         <div className="col-sm-12">
