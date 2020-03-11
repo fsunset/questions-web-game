@@ -6,6 +6,7 @@ import Firebase from '../firebaseConfig';
 const nums = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 let rightAnswersTxt;
 let wrongAnswersTxt;
+let userSelectedOpts = [];
 
 const GameComponent = () => {
 	// Globals
@@ -54,11 +55,11 @@ const GameComponent = () => {
   const handleSubmit = (e) => {
   	e.preventDefault();
 
-  	// Saving info Firebase
-	  const userRef = db.collection("users").add({
-	    name: userName.split(",")[0],
-	    email: userName.split(",")[1]
-	  }); 
+  	// // Saving info Firebase
+	  // db.collection("users").add({
+	  //   name: userName.split(",")[0],
+	  //   email: userName.split(",")[1]
+	  // }); 
 
 		// Show random question
 		getQuestion();
@@ -94,8 +95,15 @@ const GameComponent = () => {
 		nums.splice(elemIndex, 1);
 		question = data.data[randomNum];
 
-		// All 6 questions were asked!
+		// All 12 questions were asked!
 		if (question == null) {
+			// Saving user's selected options for each question info Firebase
+		  db.collection("users").add({
+		  	name: userName.split(",")[0],
+	    	email: userName.split(",")[1],
+		    userSelectedOpts: userSelectedOpts
+		  });
+
 			rightAnswersTxt = rightAnswers > 1 ? " respuestas correctas" : " respuesta correcta";
 			wrongAnswersTxt = wrongAnswers > 1 ? " respuestas incorrectas" : " respuesta incorrecta";
 
@@ -134,6 +142,8 @@ const GameComponent = () => {
   	} else {
 			setWrongAnswers(parseInt(wrongAnswers + 1));
   	}
+
+  	userSelectedOpts.push(lettersArray[index]);
 
   	setModalHeader("Seleccionaste la opción " + lettersArray[index]);
   	setModalInfo(question.feedback[index]);
