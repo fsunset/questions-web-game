@@ -64,6 +64,10 @@ const GameComponent = () => {
 
   // Array for getting random questions
   const getQuestion = (closeModal = false) => {
+  	if (userName.length <= 0) {
+  		return false;
+  	}
+
   	if (closeModal) {
   		handleCloseModal();
 
