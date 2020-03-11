@@ -5,11 +5,15 @@ import { Container, Button } from 'react-bootstrap';
 import GameComponent from './components/GameComponent';
 
 function App() {
+  const reloadPageApp = () => {
+    window.location.reload();
+  }
+
   return (
     <div className="main text-center">
       <Container>
         <div className="row">
-          <Button variant="primary" onClick={ window.location.reload() }>
+          <Button variant="primary" className="pull-right top-btn" onClick={ () => {reloadPageApp()} }>
             Comenzar Nuevo Juego
           </Button>
         </div>
